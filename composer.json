@@ -1,7 +1,11 @@
 {
     "name": "shanto75/laranotify",
     "description": "notification package",
-    "type": "composer-plugin",
+    "keywords": [
+        "laranotify",
+        "laravel"
+    ],
+    "homepage": "https://github.com/Shanto75/laranotify",
     "license": "MIT",
     "autoload": {
         "psr-4": {
