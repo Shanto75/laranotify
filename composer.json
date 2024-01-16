@@ -1,0 +1,31 @@
+{
+    "name": "shanto75/laranotify",
+    "description": "notification package",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shanto75\\Laranotify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moniruzzaman Shanto",
+            "email": "ms.shanto1234@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shanto75\\Laranotify\\LaranotifyServiceProvider"
+            ],
+            "aliases": {
+                "Laranotify": "Shanto75\\Laranotify\\Laranotify"
+            }
+        }
+    }
+}
