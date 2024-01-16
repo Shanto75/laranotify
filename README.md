@@ -33,6 +33,12 @@ Add in aliases array -
 ])->toArray(),
 ```
 
+**Facade Class Alias**
+Add it into the top of root file app.blade.php - 
+
+```php
+@include('laranotify::laranotify')
+```
 
 #### Import first the Laranotify facade
 ```php
