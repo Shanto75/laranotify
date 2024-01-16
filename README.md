@@ -33,7 +33,7 @@ Add in aliases array -
 ])->toArray(),
 ```
 
-**Facade Class Alias**
+**Include assets**
 Add it into the top of root file app.blade.php - 
 
 ```php
