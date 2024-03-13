@@ -16,8 +16,5 @@ class LaranotifyServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__.'/views', 'laranotify');
-        // $this->publishes([
-        //     __DIR__.'/views' => resource_path('views/vendor/laranotify'),
-        // ], 'laranotify-views');
     }
 }
